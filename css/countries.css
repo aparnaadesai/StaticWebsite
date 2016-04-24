@@ -1,0 +1,50 @@
+/*Remove decoration from the link*/
+a{
+	text-decoration: none;
+}
+
+/*Container for images*/
+.image_gallery_container{
+	padding: 1%;
+	width: 98%;
+	height: 98%;
+}
+
+/*contains image and text, an change container size here*/
+.image_gallery{
+	width: 23%;
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*setting image size*/
+.image_gallery img{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.5em;
+}
+
+/*Distance between two images*/
+.space{
+	margin-left: 1.2%;
+	margin-bottom:1.2%;
+}
+
+/*Formatting text containing country names*/
+.img_cont{
+	padding: 1.5%;
+}
+
+.country_name{
+	color: #006699;
+	font-size: 100%;
+	text-align:center;
+	word-wrap: break-word;
+}
+
+.text_cont{
+	text-align: center;
+	padding: 1%;
+	width: 98%;
+}
+/*formatting ends*/

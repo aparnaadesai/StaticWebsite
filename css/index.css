@@ -1,0 +1,82 @@
+/*Font size for Website title in index*/
+.heading-font-size{
+	font-size: 7.5em;
+}
+
+/*Position of title on webpage*/
+.heading-position{
+	/*position: absolute;
+	top: 45%;
+	left: 25%;
+	z-index: 100;*/
+	text-align: center;
+}
+
+/*Position of quote on the webpage*/
+.quote-position{
+	text-align: center;
+}
+
+/*Quote text size*/
+.quote-text{
+	font-size: 2.5em;
+	font-style: italic;
+}
+
+/*Quote author*/
+.author-style{
+	font-size: 2.5em;
+	font-style: italic;
+	text-align: right;
+	padding-right: 5.5em;
+}
+
+/*Round button style*/
+/*Source: http://jsfiddle.net/josedvq/Jyjjx/45/*/
+.round-button {
+	width:20%;
+}
+
+.round-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    background: #ffffff; 
+    box-shadow: 0 0 3px gray;
+}
+
+/*Changes background on hover*/
+.round-button-circle:hover {
+	background:#006699;
+}
+
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;    
+	text-align:center;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+	color: #006699;
+}
+
+/*Changes color of text on hover*/
+.round-button a:hover{
+	color: #ffffff;
+}
+
+/*Container for round button*/
+.button_container{
+	margin-left:45%;
+	margin-top: 5%;
+	width: 55%;
+}
+/*Button style ends here*/

@@ -1,0 +1,23 @@
+/*place form in center*/
+.form_style{
+	text-align: center;
+	padding: 1%;
+}
+
+/*Contains the form*/
+.form_container{
+	border: 0.1em solid #C3C8CB;
+	border-radius: 0.5em;
+	width: 50%;
+	margin: 2% 24% 2% 24%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/*Width of input tags*/
+.feedback_input{
+	width: 96%;
+}

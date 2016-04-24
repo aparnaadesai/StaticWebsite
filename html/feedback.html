@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--HEAD TAG STARTS HERE-->
+	<head>
+		<!--Meta viewport tag to take up the browser width and define the scale-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Encoding-->
+		<meta charset="utf-8">
+		<!--CSS declarations-->
+		<link rel="stylesheet" href="../default.css"/>
+		<link rel="stylesheet" href="../css/form.css"/>
+		<!--Webpage title-->
+		<title>Feedback</title>
+	</head>
+	<!--BODY TAG STARTS HERE-->
+	<body>
+		<div class="container">
+			<div class="sub-container">
+				<!--WEBSITE MENU-->	
+				<div class="header">
+					<ul class="header_ul">
+						<li class="main_page_style"><a href="../index.html">Odyssey</a></li>
+						<li class="menu_style"><a href="./home.html">Home</a></li>
+						<li class="menu_style"><a href="./countries.html">Countries</a></li>
+						<li class="menu_style"><a href="./sitemap.html">Sitemap</a></li>
+						<li class="menu_style selected"><a>Feedback</a></li>
+						<li class="menu_style"><a href="./sourcelog.html">Source Log</a></li>
+
+					</ul>
+				</div>
+				<!-- Feedback heading -->
+				<h2 style="text-align:center">Feedback Please!!</h2>
+				<br/>
+				<!-- Form starts here -->
+				<div class="form_container">
+				<!-- Mail to creator on press of Send button -->
+					<form enctype="text/plain" action="mailto:u5660384@anu.edu.au" class="form_style">
+						How did you find my website? Any suggestions? I am all ears!!
+						<br/>
+						<br/>
+						<input type="text" name="sitefeedback" maxlength="450" class="feedback_input">
+						<br/>
+						<br/>
+						What did you learn from my website?
+						<br/>
+						<br/>
+						<input type="text" name="learning" maxlength="50" class="feedback_input">
+						<br/>
+						<br/>
+						Do you want any information about a particular country/city to be covered in the website? If yes, then which?
+						<br/>
+						<br/>
+						<input type="text" name="addition" maxlength="450" class="feedback_input">
+						<br/>
+						<br/>
+						<!-- Sends email on press-->
+						<input type="submit" value="Send">
+						or
+						<!-- Resets all fields -->
+						<input type="reset" value="Reset">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
