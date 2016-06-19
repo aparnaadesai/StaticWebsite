@@ -8,6 +8,7 @@
 		<meta charset="utf-8">
 		<!--CSS declarations-->
 		<link rel="stylesheet" href="../default.css"/>
+		<link rel="stylesheet" media="print" href="../css/print.css" />
 		<!--Webpage title-->
 		<title>Home</title>
 	</head>
@@ -17,7 +18,7 @@
 		<div class="container">
 			<div class="sub-container">
 				<!--WEBSITE HEADER & MENU-->	
-				<div class="header">
+				<div class="header" style="position:fixed">
 					<ul class="header_ul">
 						<li class="main_page_style"><a href="../index.html">Odyssey</a></li>
 						<li class="menu_style selected"><a>Home</a></li>
@@ -25,10 +26,19 @@
 						<li class="menu_style"><a href="./sitemap.html">Sitemap</a></li>
 						<li class="menu_style"><a href="./feedback.html">Feedback</a></li>
 						<li class="menu_style"><a href="./sourcelog.html">Source Log</a></li>
+						<li class="menu_style"><a href="./about.html">About</a></li>
+						<li class="menu_style"><a href="./validation.html">Validation</a></li>
 					</ul>
 				</div>
+				<!-- STORYBOARD -->
+				<div id="storyboard">
+					<img src="../images/Page_1.png" alt="Comic Image 1" />
+					<img src="../images/Page_2.png" alt="Comic Image 2" />
+					<img src="../images/Page_3.png" alt="Comic Image 3" />
+					<div style="text-align:center;">Created using Comic Life 2</div>
+				</div>
 				<!--WEBSITE MISSION STATEMENT-->
-					<p>
+					<p class="mission">
 						Welcome to Odyssey!! This is an online website for travel enthusiasts providing interesting information about different cities from different countries. The information presented here is about the food, culture and facts related to the places. Unlike other travel websites which provide information about places to lure customers for buying holiday packages, Odyssey aims to offer information for the purpose of imparting knowledge to the user. The website creation was inspired from the National Geographic television series "Street Food Around the World".
 					</p>
 					<p>
@@ -44,9 +54,29 @@
 					1. Make the website an encyclopedia about different cities in the world!!
 					<br/>
 					2. Give interesting facts about different places.
-					<br/>
-					Currently the website is in the developing phase and therefore has limited content. Let us now start to explore!!		
+					<br/>	
 					</p>
+					
+					<p class="video_desc">
+						This video is about convenience of getting to know about the world from your home just by following the website. 
+						It points out how a website can help you fulfil your travelling dream without the restrictions of money or time.
+						You can travel many places in a day through this website.
+					</p>
+					<br/>
+					<div class="video_feeds_cont">
+					<!-- Video -->
+					<div id="video_cont" style="width:40%">
+						<video id="video" autoplay controls style="border-radius:0.5em">
+							<source src="../media/Video.mp4" type="video/mp4">
+						</video>
+					</div>
+					<!--FEEDS-->
+					<div id="feed" class="feeds">
+						<script type="text/javascript" src="http://feed.informer.com/widgets/VQOFZH59G6.js"></script>
+						<noscript><a  href="http://feed.informer.com/widgets/VQOFZH59G6.html">"Travel"</a>
+						Powered by <a href="http://feed.informer.com/">RSS Feed Informer</a></noscript>
+					</div>
+					</div>
 			</div>
 		</div>
 	</body>

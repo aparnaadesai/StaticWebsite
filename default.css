@@ -119,3 +119,38 @@ th,td{
 .clear_float{
 	clear: both;
 }
+
+
+/*Storyboard*/
+#storyboard{
+	width: 96%;
+	margin: 5% 2% 2% 2%;
+	height: 100%;
+}
+
+#storyboard img{
+	display: inline;
+	height: 100%;
+	width: 30%;
+	margin-left: 2.5%;
+}
+
+/*Video*/
+#video{
+	width: 100%;
+}
+#video_cont{
+	float: left;
+	margin: 2%;
+}
+
+.video_feeds_cont{
+	width: 96%;
+	margin:2%;
+}
+
+/*Feeds*/
+.feeds{
+	float:right;
+	width: 50%;
+}

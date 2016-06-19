@@ -1,0 +1,26 @@
+@media print {
+	
+	@page{
+		size:auto;	
+		margin:1%;
+		overflow:auto;
+	}
+		
+	.menu_style,#video_cont,.video_desc,.social_cont,.header{
+		visibility: hidden;
+	}
+	
+	.social_cont{
+		display:none;
+	}
+	
+	#storyboard{
+		width:100%;
+		height:35%;
+		margin-top: 10%;
+	}
+	
+	.mission{
+		margin-top:7%;
+	}
+}
